@@ -1,0 +1,7 @@
+out
+.next
+assets-src
+pnpm-lock.yaml
+public/draco
+*.glb
+next-env.d.ts

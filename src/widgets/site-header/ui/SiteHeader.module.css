@@ -1,0 +1,46 @@
+.header {
+  border-bottom: 1px solid var(--line);
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 68px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.logo {
+  font-size: 26px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.logo i {
+  color: var(--accent);
+}
+.nav {
+  display: flex;
+  gap: 28px;
+  font: 14px var(--sans);
+  flex-wrap: wrap;
+}
+.nav a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.nav a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+@media (max-width: 760px) {
+  .nav {
+    gap: 14px;
+    font-size: 13px;
+  }
+}

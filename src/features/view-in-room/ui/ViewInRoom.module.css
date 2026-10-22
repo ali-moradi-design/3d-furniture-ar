@@ -1,0 +1,33 @@
+.dialog {
+  border: 0;
+  border-radius: 16px;
+  padding: 28px;
+  max-width: 340px;
+  font-family: var(--sans);
+  background: var(--card);
+  color: var(--ink);
+}
+.dialog::backdrop {
+  background: rgb(31 27 22 / 0.5);
+}
+.title {
+  margin: 0 0 8px;
+  font: 400 24px var(--serif);
+}
+.qr {
+  width: 220px;
+  margin: 16px auto;
+}
+.qr svg {
+  width: 100%;
+  height: auto;
+}
+.close {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1.5px solid var(--ink);
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
