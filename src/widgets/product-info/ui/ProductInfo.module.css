@@ -1,0 +1,66 @@
+.info {
+  font-family: var(--sans);
+}
+.kicker {
+  margin: 0;
+  color: var(--accent);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.title {
+  margin: 8px 0 6px;
+  font: 400 44px/1.1 var(--serif);
+}
+.price {
+  margin: 6px 0 16px;
+  font: 26px var(--serif);
+}
+.price span {
+  font: 14px var(--sans);
+  color: var(--muted);
+}
+.lead {
+  color: var(--muted);
+  margin: 0 0 22px;
+}
+.label {
+  margin: 20px 0 10px;
+  font: 12px var(--sans);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.dims {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 0;
+}
+.dims div {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+}
+.dims dt {
+  font-size: 12px;
+}
+.dims dd {
+  margin: 0;
+  color: var(--ink);
+  font: 20px var(--serif);
+}
+.actions {
+  margin-top: 20px;
+  display: grid;
+  gap: 4px;
+}
+@media (max-width: 760px) {
+  .title {
+    font-size: 34px;
+  }
+}

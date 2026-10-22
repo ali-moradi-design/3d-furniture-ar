@@ -11,25 +11,25 @@ Product names in the mockup (Marlow, Hollis, Ainsley, ...) are invented too.
 
 ## Source examples that were run
 
-| Source | License | What was run | Result |
-| --- | --- | --- | --- |
+| Source                                                 | License    | What was run                                                     | Result                                                                     |
+| ------------------------------------------------------ | ---------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | Google `model-viewer` 4.x (npm `@google/model-viewer`) | Apache-2.0 | Local page with two viewers, auto-rotate, shadow, `ar` attribute | Renders correctly; screenshot in `docs/screenshots/model-viewer-local.png` |
-| AR itself (WebXR / Scene Viewer / Quick Look) | n/a | Not testable in headless desktop (`canActivateAR` is false) | Needs a real Android phone and iPhone, as the brief says |
+| AR itself (WebXR / Scene Viewer / Quick Look)          | n/a        | Not testable in headless desktop (`canActivateAR` is false)      | Needs a real Android phone and iPhone, as the brief says                   |
 
 The optional pmndrs `shoe-configurator` pattern (fabric color) is not needed:
 `model-viewer` can tint a material by setting `baseColorFactor`.
 
 ## Models (all CC0 or CC-BY)
 
-| Role | Model | Author | License | Source | Note |
-| --- | --- | --- | --- | --- | --- |
-| Hero product | SheenChair | Eric Chadwick, (c) Wayfair | CC0 1.0 | Khronos glTF-Sample-Assets | 4.1 MB, must be compressed; about 83 x 57 x 69 cm (W x D x H) |
-| Second product (AR section, related) | GlamVelvetSofa | Eric Chadwick, (c) Wayfair | CC-BY 4.0 | Khronos glTF-Sample-Assets | Credit required; rename under our brand; about 219 x 102 x 79 cm |
-| Related | Modern Coffee Table 01 | Amin | CC0 | Poly Haven | |
-| Related | Side Table 01 | James Ray Cock | CC0 | Poly Haven | |
-| Related | Mid Century Lounge Chair | Kuutti Siitonen | CC0 | Poly Haven | |
-| Backup | Sofa 03 / Arm Chair 01 | Fran Calvente / Kirill Sannikov | CC0 | Poly Haven | |
-| Backup | SheenWoodLeatherSofa | Darmstadt Graphics Group (CC-BY), Fran Calvente (CC0) | CC-BY 4.0 + CC0 | Khronos | 10 MB, too heavy |
+| Role                                 | Model                    | Author                                                | License         | Source                     | Note                                                             |
+| ------------------------------------ | ------------------------ | ----------------------------------------------------- | --------------- | -------------------------- | ---------------------------------------------------------------- |
+| Hero product                         | SheenChair               | Eric Chadwick, (c) Wayfair                            | CC0 1.0         | Khronos glTF-Sample-Assets | 4.1 MB, must be compressed; about 83 x 57 x 69 cm (W x D x H)    |
+| Second product (AR section, related) | GlamVelvetSofa           | Eric Chadwick, (c) Wayfair                            | CC-BY 4.0       | Khronos glTF-Sample-Assets | Credit required; rename under our brand; about 219 x 102 x 79 cm |
+| Related                              | Modern Coffee Table 01   | Amin                                                  | CC0             | Poly Haven                 |                                                                  |
+| Related                              | Side Table 01            | James Ray Cock                                        | CC0             | Poly Haven                 |                                                                  |
+| Related                              | Mid Century Lounge Chair | Kuutti Siitonen                                       | CC0             | Poly Haven                 |                                                                  |
+| Backup                               | Sofa 03 / Arm Chair 01   | Fran Calvente / Kirill Sannikov                       | CC0             | Poly Haven                 |                                                                  |
+| Backup                               | SheenWoodLeatherSofa     | Darmstadt Graphics Group (CC-BY), Fran Calvente (CC0) | CC-BY 4.0 + CC0 | Khronos                    | 10 MB, too heavy                                                 |
 
 The two Khronos models named in the brief are used as written. The CC-BY sofa
 needs credit on the page and in `CREDITS.md`. Every model will be listed there

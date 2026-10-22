@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+assets-src
+test-results
+playwright-report
+*.tsbuildinfo
+.lighthouseci
+next-env.d.ts
