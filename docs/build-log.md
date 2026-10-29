@@ -60,3 +60,6 @@ a shop listing page (`/` and `/shop/<category>/`).
 - AR on a real Android phone and iPhone (required by the brief before calling it done).
   Scene Viewer likely shows the default fabric, not the chosen variant.
 - CI on GitHub (the workflow has only been reproduced step by step locally).
+
+- 2026-10-29: deploy moved from the static export to a Next.js standalone container (see the
+  README); `docs/nginx.md` removed, `next.config.ts` now sets the MIME type and cache headers.

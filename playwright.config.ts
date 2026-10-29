@@ -6,7 +6,7 @@ export default defineConfig({
   retries: process.env.CI ? 1 : 0,
   use: { baseURL: 'http://localhost:3100' },
   webServer: {
-    command: 'pnpm exec serve out -l 3100 --no-clipboard',
+    command: 'pnpm start',
     url: 'http://localhost:3100',
     reuseExistingServer: !process.env.CI,
   },
